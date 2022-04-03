@@ -28,7 +28,9 @@ public class Main {
                 input.nextLine();
                 newPassword = input.nextLine();
                 if (newPassword.equals("java123")) {
-                    System.out.println("Yeni şifreniz eskisi ile aynı olamaz!");
+                    System.out.println("Yeni şifreniz eskisi ile aynı olamaz.Yeni şifre giriniz :");
+                    newPassword = input.nextLine();
+                    System.out.println("Şifreniz başarılı bir şekilde değiştirildi.");
                 } else {
                     System.out.println("Şifreniz başarılı bir şekilde değiştirildi.");
                 }
